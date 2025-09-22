@@ -1,0 +1,155 @@
+.register-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #111;
+}
+
+.register-box {
+  display: flex;
+  width: 900px;
+  height: 600px;
+  background: #fff;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+.register-left {
+  flex: 1;
+  padding: 40px;
+}
+.logo-row {
+  display: flex;
+  align-items: center; /* logo và Gradiator cùng hàng */
+  gap: 8px;
+}
+
+.welcome-text {
+  margin-top: 12px; /* đẩy 2 dòng xuống dưới logo */
+}
+
+.sub-title {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.sub-desc {
+  font-size: 13px;
+  color: #666;
+}
+
+
+.logo {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.register-left h2 {
+  margin: 10px 0 5px;
+}
+
+.tab-buttons {
+  display: flex;
+  margin: 20px 0;
+}
+
+.tab-buttons button {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  background: #f5f5f5;
+  cursor: pointer;
+}
+
+.tab-buttons .active {
+  background: #2563eb;
+  color: #fff;
+  border: none;
+}
+
+.register-form input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+.btn-register {
+  width: 100%;
+  padding: 12px;
+  background: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.divider {
+  text-align: center;
+  margin: 20px 0;
+  color: #888;
+}
+
+.btn-apple,
+.btn-google {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border-radius: 8px;
+  font-size: 15px;
+  cursor: pointer;
+  border: 1px solid #ccc;
+}
+
+.btn-apple {
+  background: black;
+  color: white;
+}
+
+.btn-google {
+  background: white;
+  color: #333;
+}
+
+.have-account {
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+.register-right {
+  flex: 1;
+  position: relative;
+  background: linear-gradient(135deg, #0f172a, #1e3a8a, #3b82f6);
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding: 20px;
+}
+
+.bg-effect {
+  width: 100%;
+  height: 100%;
+  background: url("https://w0.peakpx.com/wallpaper/151/571/HD-wallpaper-blue-wave-texture.jpg")
+    no-repeat center center;
+  background-size: cover;
+  opacity: 0.7;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.footer {
+  position: absolute;
+  bottom: 10px;
+  color: white;
+  font-size: 12px;
+  text-align: center;
+  width: 100%;
+}
